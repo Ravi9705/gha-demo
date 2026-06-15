@@ -8,3 +8,8 @@ jobs:
       run: |
         echo "one"
         echo "two"
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test step
+        run: echo "test"
