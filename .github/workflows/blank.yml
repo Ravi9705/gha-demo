@@ -10,6 +10,7 @@ jobs:
         echo "two"
   test:
     runs-on: ubuntu-latest
+    needs: hello
     steps:
       - name: test step
         run: echo "test"
