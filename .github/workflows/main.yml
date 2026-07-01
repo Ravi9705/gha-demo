@@ -1,0 +1,9 @@
+name: Hello Ravi
+on: workflow_dispatch
+jobs:
+   Hello_Ravi:
+     runs-on: ubuntu-latest
+     steps:
+       - name: Hello
+         run: "Welcome Ravi"
+  
