@@ -1,0 +1,11 @@
+name: Multiple_commands
+on: workflow_dispatch
+jobs:
+  Multiple_commands:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Multiple
+        run: |
+         echo "Hi"
+         echo "hello"
+         echo "Namaste"
