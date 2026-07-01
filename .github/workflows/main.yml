@@ -5,5 +5,5 @@ jobs:
      runs-on: ubuntu-latest
      steps:
        - name: Hello
-         run: "Welcome Ravi"
+         run: echo "Welcome Ravi"
   
