@@ -1,4 +1,4 @@
-name: mul_jobs
+name: sequence_jobs
 on: workflow_dispatch
 jobs:
   Build:
